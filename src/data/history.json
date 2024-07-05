@@ -1,0 +1,19 @@
+[
+  {
+    "role": "Web Developer",
+    "organisation": "CognoRise InfoTech",
+    "startDate": "Jun-July, 2024",
+    "endDate": "Present",
+    "experiences": ["Here I'm learning practical web development skills and real-world project implementation."],
+    "imageSrc": "history/1693071294324.png"
+  },
+  {
+    "role": "ReactJS Developer",
+    "organisation": "CodSoft",
+    "startDate": "Jun-July, 2024",
+    "endDate": "Present",
+    "experiences": ["Here I'm gaining hands-on experience with ReactJS by working on various projects during this internship."],
+    "imageSrc": "history/1685777115831.png"
+  }
+
+]

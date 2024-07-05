@@ -1,0 +1,64 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/flat,750x,075,f-pad,750x1000,f8f8f8.u2.png"
+  },
+ 
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "C",
+    "imageSrc": "skills/c.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/C++.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+ 
+  {
+    "title": "PHP",
+    "imageSrc": "skills/php.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png"
+  },
+  {
+    "title": "python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "C#",
+    "imageSrc": "skills/C2.png"
+  },
+  {
+    "title": "DBMS",
+    "imageSrc": "skills/dbms.png"
+  },
+  {
+    "title": ".NET",
+    "imageSrc": "skills/NET.png"
+  },
+  {
+    "title": "Computer Graphics",
+    "imageSrc": "skills/Graphics.png"
+  }
+]

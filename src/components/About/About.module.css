@@ -1,0 +1,57 @@
+.container {
+  color: var(--color-text);
+  margin-top: 240px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.aboutImage {
+  border-radius: 50%;
+  width: 200px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.aboutDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detailsList {
+  font-size: 16px;
+}
+
+.aboutItemText {
+  padding: 20px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutDetails {
+    align-items: center;
+    text-align: center;
+  }
+}

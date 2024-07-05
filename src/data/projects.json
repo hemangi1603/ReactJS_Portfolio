@@ -1,0 +1,24 @@
+[
+  {
+    "title": "E-Learning Management System",
+    "imageSrc": "projects/Screenshot (700).png",
+    "description": "This project enabling seamless course management and interactive learning experiences for diverse users",
+    "skills": ["PHP", "MySQL"],
+    "source": "https://github.com/hemangi1603/E-Learning-Management-System"
+  },
+  {
+    "title": "Portfolio",
+    "imageSrc": "projects/01-preview.__large_preview.jpg",
+    "description": "Dynamic and responsive portfolio showcasing skills and projects, highlighting expertise in web development.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "source": "https://github.com/hemangi1603/CognoRise-Infotech-Task1"
+  },
+  {
+    "title": "React-Portfolio",
+    "imageSrc": "projects/React-portfolio.png",
+    "description": "Dynamic and responsive portfolio showcasing skills and projects, highlighting expertise in web development.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "source": "https://github.com/hemangi1603/CODSOFT-Task1"
+  }
+
+]
