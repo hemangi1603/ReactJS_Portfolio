@@ -11,12 +11,12 @@ export const Experience = () => {
   const handleDownloadResume = (e) => {
     e.preventDefault();
 
-    const resumeFilePath = "/RESUME.docx";
+    const resumeFilePath = "public/Resume .pdf"; 
     console.log("Resume File Path:", resumeFilePath);
 
     const link = document.createElement('a');
     link.href = resumeFilePath;
-    link.setAttribute('download', 'Resume -.pdf');
+    link.setAttribute('download', 'Resume.pdf');
 
     document.body.appendChild(link);
     link.click();
@@ -81,9 +81,9 @@ export const Experience = () => {
             )}
           </div>
         </div>
-      </div><br></br><br></br>
+      </div>
       <div className={styles.resumeBtnContainer}>
-        <a href="C:\Users\HEMANGI SOLANKI\Documents\Hemangi doc\Resume -.pdf" className={styles.resumeBtn} onClick={handleDownloadResume}>
+        <a href="public/Resume .pdf" className={styles.resumeBtn} onClick={handleDownloadResume}>
           Download Resume
         </a>
       </div>
