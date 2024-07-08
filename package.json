@@ -6,7 +6,11 @@
   "homepage":"https://hemangi1603.github.io/CODSOFT-Task1/",
   "scripts": {
     "predeploy": "npm run build",
+<<<<<<< HEAD
     "deploy": "gh-pages -d dist",
+=======
+    "deploy": "gh-pages -d build",
+>>>>>>> b939ef5185561c088650ffb4588733242ab6613f
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
