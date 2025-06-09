@@ -15,7 +15,16 @@
 }
 
 .image {
-  margin-bottom: 26px;
+   height: 180px; /* or any fixed height you prefer */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover; /* ensures image fills container without distortion */
 }
 .image:hover {
   background-color: var(--color-primary-dark); 
@@ -27,9 +36,13 @@
 }
 
 .description {
-  margin-top: 6px;
-  font-size: 25px;
-  font-weight: 400;
+  .container {
+  height: 500px; /* or desired fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 }
 
 .skills {
@@ -38,16 +51,16 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 4px;
   list-style: none;
 }
 
 .skill {
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 500;
   border-radius: 100px;
   background: var(--color-dark);
-  padding: 2px 22px;
+  padding: 4px 12px;
 }
 
 .links {

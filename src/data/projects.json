@@ -17,8 +17,28 @@
     "title": "React-Portfolio",
     "imageSrc": "projects/React-portfolio.png",
     "description": "Dynamic and responsive portfolio showcasing skills and projects, highlighting expertise in web development.",
-    "skills": ["HTML", "CSS", "JavaScript"],
+    "skills": ["ReactJS", "HTML,CSS,JavaScript","React Router"],
     "source": "https://github.com/hemangi1603/CODSOFT-Task1"
+  },
+   {
+    "title": "Ball-Sort Puzzle Game ",
+    "imageSrc": "projects/ball.jpg",
+    "description": "Developed a Python puzzle game with Pygame, featuring AI solvers (BFS, DFS, IDDFS, A*) and multi-level challenges to showcase algorithmic problem-solving.",
+    "skills": ["Python", "PyGame", "A* Algorithm","OOP","Custom logic"],
+    "source": "https://github.com/hemangi1603/Ball-Sort-Game.git"
+  },
+   {
+    "title": "Licence Plate detection",
+    "imageSrc": "projects/opencv_anpr_header.png",
+    "description": "Built a soft computing project using Python, OpenCV, and Tesseract OCR to detect and extract vehicle license plates. Applied image processing and OCR to recognize numbers from cars, bikes, and trucks in varied lighting.",
+    "skills": ["Python", "OpenCV", "Tesseract OCR","ML(Basic)","Tensorflow","NumPy"],
+    "source": "https://github.com/hemangi1603/license_plate_detection_project_using_Soft-Computing.git"
+  },
+   {
+    "title": "Inventory Management System",
+    "imageSrc": "projects/project.png",
+    "description": "Developed an Inventory Management System using Java with features like stock tracking, product management, and low-stock alerts. Implemented user-friendly interfaces and data handling to streamline inventory operations.",
+    "skills": ["Java"],
+    "source": "https://github.com/hemangi1603/Inventory-Management-System_Java.git"
   }
-
 ]

@@ -25,17 +25,19 @@
 }
 
 .skillsContainer {
-  width: 45%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* this centers horizontally */
   position: relative;
 }
 
 .skills {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 equal columns */
+  grid-auto-rows: auto; /* rows grow as needed */
   gap: 37px;
+  justify-content: center; /* center the whole grid horizontally */
 }
 
 .skill {
